@@ -7,9 +7,9 @@ const PORT = process.env.PORT || 3000;
 // Enable CORS
 app.use(cors());
 
-// Root route
+// Redirect root route to /api/info
 app.get('/', (req, res) => {
-    res.send('Welcome to the HNG12 API! Visit <a href="/api/info">/api/info</a> for the API response.');
+    res.redirect('/api/info');
 });
 
 // Route to return required information
