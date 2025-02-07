@@ -15,9 +15,9 @@ app.get('/', (req, res) => {
 // Route to return required information
 app.get('/api/info', (req, res) => {
     const response = {
-        email: "your-email@domain.com", // Replace with your registered email
+        email: "edubsam@gmail.com", // Replace with your registered email
         timestamp: new Date().toISOString(),
-        github_url: "https://github.com/yourusername/your-repo" // Replace with your actual GitHub repo URL
+        github_url: "https://github.com/DevalSam/test-hng12-api" // Replace with your actual GitHub repo URL
     };
 
     // Prettify JSON response with 2-space indentation
